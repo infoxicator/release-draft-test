@@ -1,13 +1,8 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
-inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
-    required: true
-    default: '1000'
+name: 'One App Release Draft'
+description: 'Drafts a Github release with the latest tag'
 outputs:
-  time: # output will be available to future steps 
-    description: 'The message to output'
+  release-url:
+    description: 'url of the release draft (could be sent to slack)'
 runs:
   using: 'node12'
   main: 'dist/index.js'

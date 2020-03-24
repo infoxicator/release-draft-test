@@ -1,7 +1,7 @@
 {
-  "name": "javascript-action",
+  "name": "one-app-release-draft-test",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Drafts a Github release with the latest tag",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "https://github.com/infoxicator/release-draft-test"
   },
   "keywords": [
     "GitHub",
     "Actions",
     "JavaScript"
   ],
-  "author": "GitHub",
+  "author": "Infoxicator",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/actions/javascript-action/issues"
